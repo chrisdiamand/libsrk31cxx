@@ -18,4 +18,4 @@ libsrk31c++.so: $(OBJS)
 	$(CXX) -shared -o "$@" $+ $(LDFLAGS) $(LDLIBS)
 
 clean:
-	rm -f libsrk31c++.a libsrk31c++.so *.o
+	rm -f libsrk31c++.a libsrk31c++.so *.o .*.d
